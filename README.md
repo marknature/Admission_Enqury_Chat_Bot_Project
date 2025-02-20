@@ -56,6 +56,61 @@ The **Admission Enquiry Chatbot** is designed to assist prospective students in 
 
 ---
 
+## **📌 Steps to Create the Repository on GitHub**  
+1️⃣ **Go to GitHub** and log in.  
+2️⃣ Click on **New Repository**.  
+3️⃣ Name it: `admission-chatbot`.  
+4️⃣ Add a **README.md** (Use the content I provided).  
+5️⃣ Select **Python .gitignore** to ignore unnecessary files.  
+6️⃣ Choose **MIT License** (or your preferred license).  
+7️⃣ Click **Create Repository**.  
+
+---
+
+## **📂 Folder Structure for Your Repository**  
+Here’s a recommended structure to keep your project organized:  
+
+```bash
+admission-chatbot/
+│── backend/              # Backend API (Flask)
+│   ├── app.py            # Main chatbot backend
+│   ├── config.py         # Configuration settings
+│   ├── requirements.txt  # Python dependencies
+│   ├── templates/        # HTML templates (if using Flask frontend)
+│   ├── static/           # CSS, JS files
+│── frontend/             # Chatbot UI
+│   ├── index.html        # Chatbot frontend
+│   ├── styles.css        # Stylesheet
+│   ├── script.js         # JavaScript for chatbot interaction
+│── docs/                 # Documentation and resources
+│── .gitignore            # Git ignore file
+│── README.md             # Project overview
+│── LICENSE               # Open-source license
+```
+
+---
+
+## **📜 Commands to Set Up Your Repo Locally**  
+Once your GitHub repo is created, follow these steps:  
+
+### **1️⃣ Clone the Repository**  
+```bash
+git clone https://github.com/yourusername/admission-chatbot.git
+cd admission-chatbot
+```
+
+### **2️⃣ Initialize & Push to GitHub**  
+```bash
+git init
+git add .
+git commit -m "Initial commit - Admission Chatbot"
+git branch -M main
+git remote add origin https://github.com/yourusername/admission-chatbot.git
+git push -u origin main
+```
+
+---
+
 ## **📚 Prerequisites & Skills Required**  
 ✔️ **Python (Flask, OpenAI API)** – For backend development.  
 ✔️ **HTML, CSS, JavaScript** – For the chatbot interface.  
